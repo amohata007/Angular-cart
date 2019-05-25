@@ -1,0 +1,27 @@
+<div id="fruitWrapper">
+        <form role="form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search Here....">
+            </div>
+        </form>
+        <div>
+            <ul class="list-unstyled">
+                <li class="fruit" 
+                    style="background: white url({{fruit.imgUrl}}) no-repeat"
+                    ng-repeat="fruit in fruits">
+                        <div class="fruit-details clearfix">
+                            <h3>Name: {{fruit.name}}</h3>
+                            <p>Price: {{fruit.Price}}</p>
+                            <ul class="list-unstyled list-inline">
+                                <li>Rating: {{fruit.rating}}</li>
+                                <li>Brand: {{fruit.brand}}</li>
+                                <li>Color: {{fruit.color}}</li>
+                                <li>Weigth: {{fruit.weigth}}</li>
+                            </ul>
+                            <p>{{fruit.details}}</p>
+                            <button class="btn btn-info pull-right" ng-click="addToCart(fruit)">Add to Cart</button>
+                        </div>
+                </li>
+            </ul>
+        </div>
+    </div>

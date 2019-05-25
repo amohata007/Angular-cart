@@ -1,0 +1,43 @@
+#header-wrapper{
+    width: 100%;
+}
+
+.logo{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: blue;
+}
+
+.tagline{
+    margin-top: 55px;
+    margin-left: -135px;
+}
+
+.nav-wrapper{
+    margin-left: 1150px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#fruitWrapper{
+    width: 100%;
+    padding: 10px;
+}
+
+#fruitWrapper input{
+    width: 25%;
+    margin-top: 80px;
+}
+#fruitWrapper .fruit{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* background: url("mango.jpg");
+    background-repeat: no-repeat; */
+}
+
+#fruitWrapper .fruit .fruit-details{
+    margin-left: 250px;
+}
