@@ -5,7 +5,7 @@ app.config(function($routeProvider){
         .when("/fruits",{
             templateUrl: "Partials/fruit-list.html",
             controller: "Ctrll"    
-        })
+        }) 
 
         .when("/cart",{
             templateUrl: "Partials/cart-list.html",
